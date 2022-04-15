@@ -1,38 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Zilla+Slab:wght@300&display=swap');
 
 * {
-    margin: 0;
+    margin: 1px;
     padding: 0;
 }
-nav {
-    color: white;
-    font-family:'Bebas Neue','arial','sans-serif';
+
+#background-color {
+    background-size: 50%;
+    background-color: #B3B3B3;
+    ;
 }
-nav li {
+
+h1 h2 {
+    font-size: 200%;
+    font-family: 'Bebas Neue','arial','sans-serif';
+    color:#262626
+}
+#logo {
     float: left;
-    display: inline;
-    letter-spacing:1px;
-    margin-right: 5px ;
+    font-size: 500%;
+    color: #262626;
+    padding: 0;
 }
-nav ul {
-    display: block;
+
+#menu {
+    font-size: 90%;
+    letter-spacing: 5px;
+}
+#menu li {
+    float: right;
     list-style-type: none;
-    margin: 0.2px;
-    padding: 5px 0 5px 0;
-    background-color: black;
-    border: 2px solid;  
+    margin-right: 15px;
 }
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
-  }
-nav li a {
+#menu a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
-a:hover {
-    color: purple ;
+#menu #logo {
+    line-height: 100px;
 }
-    
+#menu a:hover {
+    color: #5F227D;
+}
+.active {
+    color: #262626;
+}
