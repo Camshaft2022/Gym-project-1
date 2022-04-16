@@ -53,14 +53,6 @@ nav li {
     
 }
 
-.bg-1 {
-    background-image: url(../css/images/Backgroundimage1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-}
-
 section {
     width: 80%;
     max-width: 1000px;
@@ -73,6 +65,15 @@ section {
     font-family:'Bebas Neue','arial','sans-serif';
 }
 
+.bg-1 {
+    background-image: url(../css/images/Backgroundimage1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
 #overlay1 {
     width: 50%;
     min-height: 600px;
@@ -80,9 +81,14 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px
+    padding: 30px;
+}
+#overlay1 h1 p {
+    text-align: center;
+    margin: 3px 25px 3px 25px
 
 }
+
 
 .bg-2 {
     background-image: url(../css/images/backgroundimage2.jpg);
