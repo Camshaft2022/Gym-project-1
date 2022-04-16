@@ -50,7 +50,9 @@ nav li {
 
 #menu a:hover {
     color: #5F227D;
-    
+}
+.active {
+    color: #5F227D;
 }
 
 section {
@@ -75,21 +77,15 @@ section {
 
 
 #overlay1 {
-    width: 50%;
-    min-height: 600px;
+    width: 100%;
+    min-height: 500px;
     background-color: #262626;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
+    font-size: 50px;
 }
-#overlay1 h1 p {
-    text-align: center;
-    margin: 3px 25px 3px 25px
-
-}
-
-
 .bg-2 {
     background-image: url(../css/images/backgroundimage2.jpg);
     background-size: cover;
@@ -99,8 +95,8 @@ section {
 }
 
 #overlay2 {
-    width: 50%;
-    min-height: 600px;
+    width: 100%;
+    min-height: 500px;
     background-color: #262626;
     display: flex;
     align-items: center;
@@ -117,8 +113,8 @@ section {
     height: 100vh;
 }
 #overlay3 {   
-    width: 50%;
-    min-height: 600px;
+    width: 100%;
+    min-height: 500px;
     background-color: #262626;
     display: flex;
     align-items: center;
