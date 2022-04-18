@@ -147,13 +147,49 @@ section {
     justify-content: center;
     padding: 30px
 }
-#overlay4-join-us {
-    width: 80%;
-    max-width: 1000px;
-    margin: 0;
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
-    background-color:#B3B3B3;
+
+#membership-signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    background-color: #262626;
+    border: solid 1px #B3B3B3;
+    margin-top: 2%;
+    margin-left: 2%;
+    
 }
 
+#membership-signup h1 {
+    font-size: 100px;
+    font-family: 'Bebas Neue','arial','sans-serif';
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #B3B3B3; 
+    
+}
+
+#membership-signup p {
+    font-size: 40px;
+    color: #B3B3B3;
+    margin-left: 2%;
+    
+}
+#membership-signup label {
+    color: #B3B3B3;
+    font-size: 20px;
+    margin-left: 2%;
+    
+}
+#membership-signup input {  
+    font-size: 20px;
+    margin:5px;
+    outline: none;
+    border-radius: 5px;
+    
+}
+#membership-signup button {
+
+}
