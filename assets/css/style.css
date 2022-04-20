@@ -79,7 +79,6 @@ section {
     
 }
 
-
 #overlay1 {
     width: 100%;
     min-height: 500px;
@@ -92,6 +91,7 @@ section {
     
     
 }
+
 #overlay1 h1 {
     display:flex;
     align-items: center;
@@ -101,33 +101,34 @@ section {
     letter-spacing: 3px;
 
 }
-#overlay1 p {
-    align-items: center;
-    justify-content: center;
-    padding:1%;
-    
 
-    
-
-}
 .bg-2 {
     background-image: url(../css/images/backgroundimage2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    opacity: 0.5
+    opacity: 0.5;
 }
 
 #overlay2 {
     width: 100%;
     min-height: 500px;
     background-color: #262626;
-    display: flex;
+    font-size: 30px;
+    margin-left: 27%;
+    font-family:'arial','sans-serif';
+    padding: 30px;
+
+}
+
+#overlay2 h1 {
+    display:flex;
     align-items: center;
     justify-content: center;
-    padding: 30px
-
+    font-family:'Bebas Neue','arial','sans-serif';
+    text-decoration: underline;
+    letter-spacing: 3px;
 }
 
 .bg-3 {
@@ -136,8 +137,9 @@ section {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    opacity: 0.5
+    opacity: 0.5;
 }
+
 #overlay3 {   
     width: 100%;
     min-height: 500px;
@@ -191,5 +193,6 @@ section {
     
 }
 #membership-signup button {
-
+    font-size: 20px;
+    margin: 1px;
 }
