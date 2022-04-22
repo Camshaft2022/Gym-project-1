@@ -32,6 +32,8 @@ Membership section provides a detailed sign up so that coaches will be able to t
 - __Features Left to Implement__
 I think what would be  a great feature to implement in the future is a log in account for memberships where they can track progress and food intake and have direct contact with coaches through the page and can leave notes on other clients walls with motivation or express gratitude
 
+i think another feature left to implement in the future would be an additional class page that gives a full break down of classes on the week or month
+
 ## Testing 
 
 -In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
