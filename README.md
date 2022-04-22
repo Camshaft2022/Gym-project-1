@@ -1,8 +1,8 @@
 # __Fitness Studio__
 
-Fitness studio is a website that provides an existing or expected client information about the facilities and coaches of a gym and provides details on upcoming events and classes.
-For this sites demographic it will be targeting both professional athletes and hobbyists that want a sense of community and mutually understanding and safe environment to keep fit and healthy.
-I believe this website is beneficial to a client because its got detailed information on upcoming events and classes and any details an expected client could want to know about when they wish to join Fitness studio.
+Fitness studio is a website that provides an existing or expected customer information about the facilities/classes and coaches of a gym and provides details on upcoming events and classes.
+For this sites demographic it will be targeting both professional athletes and hobbyists that want a sense of community, mutual understanding and safe environment to keep fit and healthy.
+I believe this website is beneficial to a customer because its got detailed information on upcoming events/classes and any details an expected customer could want to know about when they wish to join Fitness Studio to relieve any stress from the process.
 
 ## Existing Features
 
@@ -24,7 +24,7 @@ The websites class section will give a scheduled weekly activity list for day an
 Registration will be quick and outline what the client would like to register for and sends it to the event coordinator to sort out classes.
 
 - __Footer section__
-This will provide the user with links to all social media accounts including a link to discord that will give the user a sense of community and be able to communicate with newly made friends from classes or coaches sessions all in one place.
+The websites footer section will provide the user with links to all social media accounts including a link to discord that will give the user a sense of community and be able to communicate with newly made friends from classes or coaches sessions all in one place.
 
 - __Membership page__
 Membership section provides a detailed sign up so that coaches will be able to tailor the workouts to the individuals objectives there is also a moving video in the background of the membership feature so that the background makes the sign-up form more engaging.
