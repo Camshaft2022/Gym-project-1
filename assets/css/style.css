@@ -96,7 +96,7 @@ section {
     min-height: 500px;
     background-color: #262626;
     padding: 30px;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 27%;
     font-family:'arial','sans-serif';
     
@@ -127,7 +127,7 @@ section {
     width: 100%;
     min-height: 500px;
     background-color: #262626;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 27%;
     font-family:'arial','sans-serif';
     padding: 30px;
@@ -159,7 +159,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px
 }
 #overlay3 h1 {
     align-items: center;
@@ -175,7 +174,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 750px;
+    width: 70%;
     background-color: #262626;
     border: solid 1px #B3B3B3;
     margin-top: 2%;
@@ -188,13 +187,13 @@ section {
     font-family: 'Bebas Neue','arial','sans-serif';
     text-align: center;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 30px;
     color: #B3B3B3; 
     
 }
 
 #membership-signup p {
-    font-size: 40px;
+    font-size: 20px;
     color: #B3B3B3;
     margin-left: 2%;
     
@@ -210,11 +209,34 @@ section {
     margin:5px;
     outline: none;
     border-radius: 5px;
-    
 }
-#membership-signup button {
-    font-size: 20px;
-    margin: 1px;
+
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+.membership-button {
+    background-color: #262626;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 99%;
+    opacity: 0.9;
+  }
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd; 
+}
+input[type=submit]:focus {
+    background-color: #5F227D;
 }
 .column {
     box-sizing: border-box;
@@ -227,8 +249,7 @@ section {
 }
 .row:after {
     display: table;
-    clear: both;
-  }
+}
 
 .card {
     box-shadow: 0 4px 8px 0 black;
@@ -240,6 +261,7 @@ section {
     font-size: 60px;
     color: black;
 }
+
 #signup {
     text-decoration: none;
     text-transform: none;
